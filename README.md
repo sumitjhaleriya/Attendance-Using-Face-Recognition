@@ -31,18 +31,8 @@ This Python project utilizes face recognition to manage attendance. It captures 
 
     Edit the 'Student.csv' file to include student information and photo locations.
     
-   **Capture a Face Image:**
-    
-    Run the script to capture a face image by executing:
-    
-    ```bash
-    Copy code
-    python capture_face.py
-    ```
-    This will save the captured image as 'StudentX.png', where X is the number of images captured.
-    
- 3. **Identify Student and Record Attendance:**
-    
+3. **Identify Student and Record Attendance:**
+    Copy the code from AttendanceUsingFaceRecognition file into attendance_management.py
     Run the main script by executing:
     
     ```bash
@@ -54,3 +44,5 @@ This Python project utilizes face recognition to manage attendance. It captures 
     
     The captured face with information will be displayed on the screen.
 
+ 5. **Stuendts Data:**
+    The Data of the faces captured by the code will be saved in Student.csv file as a copy of it is here.
